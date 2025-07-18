@@ -77,6 +77,10 @@ For other devices we recommend checking out [MinUI](https://github.com/shauninma
 - Trimui Brick
 - Trimui Smart Pro
 
+Both revisions share the **tg5040** platform internally. The updater falls back
+to this platform when `/usr/trimui/bin/runtrimui.sh` is present, which correctly
+handles Brick units as well.
+
 ---
 
 ## Future plans roadmap
